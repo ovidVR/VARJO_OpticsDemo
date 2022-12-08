@@ -15,7 +15,7 @@ D:/Varjo/VARJO_OpticsDemo/EyeTrackingDemo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65398
+59124
 Successfully changed project path to: D:/Varjo/VARJO_OpticsDemo/EyeTrackingDemo
 D:/Varjo/VARJO_OpticsDemo/EyeTrackingDemo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Varjo/VARJO_OpticsDemo/EyeTrackingDemo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15624] Host "[IP] 139.91.185.73 [Port] 0 [Flags] 2 [Guid] 1557139026 [EditorId] 1557139026 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VGA2729) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19540] Host "[IP] 139.91.185.73 [Port] 0 [Flags] 2 [Guid] 2250753611 [EditorId] 2250753611 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VGA2729) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15624] Host "[IP] 139.91.185.73 [Port] 0 [Flags] 2 [Guid] 1557139026 [EditorId] 1557139026 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VGA2729) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19540] Host "[IP] 139.91.185.73 [Port] 0 [Flags] 2 [Guid] 2250753611 [EditorId] 2250753611 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VGA2729) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 108.93 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
+Refreshing native plugins compatible for Editor in 114.58 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.66 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Varjo/VARJO_OpticsDemo/EyeTrackingDemo/Assets
@@ -70,54 +70,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005519 seconds.
+Registered in 0.005681 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.58 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 112.73 ms, found 15 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.506 seconds
+- Completed reload, in  0.571 seconds
 Domain Reload Profiling:
-	ReloadAssembly (507ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (571ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (372ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (242ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (113ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008835 seconds.
+Registered in 0.007981 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.74 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 115.72 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
@@ -135,43 +135,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
+- Completed reload, in  1.342 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1070ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (905ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
+			SetupTypeCache (249ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (526ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (708ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (169ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 15 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 6829 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 169 unused Assets / (11.3 MB). Loaded Objects now: 7152.
-Memory consumption went from 300.4 MB to 289.1 MB.
-Total: 6.370200 ms (FindLiveObjects: 0.583700 ms CreateObjectMapping: 0.165200 ms MarkObjects: 3.232000 ms  DeleteObjects: 2.388500 ms)
+Unloading 6944 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (1.6 MB). Loaded Objects now: 7386.
+Memory consumption went from 317.1 MB to 315.5 MB.
+Total: 4.893800 ms (FindLiveObjects: 0.618300 ms CreateObjectMapping: 0.279100 ms MarkObjects: 3.415900 ms  DeleteObjects: 0.579600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -184,15 +184,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1913.140815 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scripts
+  artifactKey: Guid(c8e9151fcbab8e9499868e702dd974f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scripts using Guid(c8e9151fcbab8e9499868e702dd974f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be056d86ae5d4c86a74cf9f7512a97e4') in 0.017269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/EyeTracking
+  artifactKey: Guid(7fff20f0a3b7b134a9696b8236b8fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/EyeTracking using Guid(7fff20f0a3b7b134a9696b8236b8fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a7f115570c0bb34962920362c2b66b') in 0.003837 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013003 seconds.
+Registered in 0.008537 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 1.58 ms, found 15 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
@@ -210,40 +222,112 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
+- Completed reload, in  1.005 seconds
 Domain Reload Profiling:
-	ReloadAssembly (875ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1005ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (706ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (802ms)
 			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (349ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.67 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6588 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.6 MB). Loaded Objects now: 7390.
+Memory consumption went from 302.2 MB to 300.6 MB.
+Total: 5.049300 ms (FindLiveObjects: 0.703200 ms CreateObjectMapping: 0.213500 ms MarkObjects: 3.543100 ms  DeleteObjects: 0.588500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008479 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <63965ae56af7489797f355b7c1211ab2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
 				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.94 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 6695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 159 unused Assets / (11.3 MB). Loaded Objects now: 7156.
-Memory consumption went from 291.9 MB to 280.6 MB.
-Total: 6.062100 ms (FindLiveObjects: 0.459800 ms CreateObjectMapping: 0.149900 ms MarkObjects: 3.155800 ms  DeleteObjects: 2.295600 ms)
+Refreshing native plugins compatible for Editor in 4.72 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6588 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.6 MB). Loaded Objects now: 7394.
+Memory consumption went from 305.2 MB to 303.7 MB.
+Total: 3.961600 ms (FindLiveObjects: 0.462600 ms CreateObjectMapping: 0.147600 ms MarkObjects: 2.878500 ms  DeleteObjects: 0.471900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -257,87 +341,283 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1064.031872 seconds.
-  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking
-  artifactKey: Guid(24fb2d6d2dab44c46b436fbdb395509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking using Guid(24fb2d6d2dab44c46b436fbdb395509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f39ee2eb1b3a1d5c77d368837272424') in 0.014379 seconds 
+  Time since last request: 1184.530622 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/MixedReality
+  artifactKey: Guid(3958b42f0736bc64db98117396b75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/MixedReality using Guid(3958b42f0736bc64db98117396b75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5957b98b53b1965b55b494a938abea72') in 0.018597 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.289082 seconds.
-  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes
-  artifactKey: Guid(c1255603197b7f0479f9a549f855b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes using Guid(c1255603197b7f0479f9a549f855b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b91696cb3219b67897f538cf6ed34f') in 0.004272 seconds 
+  Time since last request: 3.213777 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/MixedReality/Scenes
+  artifactKey: Guid(20c9528e99d912243bdd4a87f42a2cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/MixedReality/Scenes using Guid(20c9528e99d912243bdd4a87f42a2cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f30449bc453e13fa7cc3feff12ad1c8') in 0.004720 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.978733 seconds.
+  Time since last request: 2.637794 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/ControllerInput
+  artifactKey: Guid(7f494b273b8081949af6e24f767b5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/ControllerInput using Guid(7f494b273b8081949af6e24f767b5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831ec924501b09786ef7f6d18880def3') in 0.005032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.708844 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/ControllerInput/Scenes
+  artifactKey: Guid(b92337ca7ad7c7a4dbb327fff410a64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/ControllerInput/Scenes using Guid(b92337ca7ad7c7a4dbb327fff410a64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727e5f77029346cc79424a1a8e438e21') in 0.001713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.035889 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/ControllerInput/Scenes/ControllerInput.unity
+  artifactKey: Guid(4d30f2fb9e9232a44bc654918a8e6606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/ControllerInput/Scenes/ControllerInput.unity using Guid(4d30f2fb9e9232a44bc654918a8e6606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c1b6ddb3d449c4ffdd78bee769407') in 0.004555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.852707 seconds.
   path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/EyeTracking.unity
   artifactKey: Guid(e76ac0e65ee3e5f498bb5693648bdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/EyeTracking.unity using Guid(e76ac0e65ee3e5f498bb5693648bdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78198bf2eec82aed9d6bc678a13a888') in 0.004544 seconds 
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/EyeTracking.unity using Guid(e76ac0e65ee3e5f498bb5693648bdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff299250b76bc057756b25ece0c8e6c') in 0.001808 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.971409 seconds.
-  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(b02c7bf3de038eb4cadfa08dd684c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(b02c7bf3de038eb4cadfa08dd684c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59bb654a32dfc378d05ac0742eaabf1') in 0.044574 seconds 
+  Time since last request: 0.831378 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/EyeTrackingSettings.lighting
+  artifactKey: Guid(a63d778f38bd5594bb6985aef4b4181b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/EyeTrackingSettings.lighting using Guid(a63d778f38bd5594bb6985aef4b4181b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d7c838adf347059a265787f2fb1c2c') in 0.030043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset
-  artifactKey: Guid(35929048292b6f9478120b48556be046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset using Guid(35929048292b6f9478120b48556be046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5731b8375e409132aad8251d7197f438') in 0.008401 seconds 
+  Time since last request: 6.052967 seconds.
+  path: Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/XR Rig.prefab
+  artifactKey: Guid(3d062f94b52943e4a9af21347fb65293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Varjo XR Plugin/3.2.0/HDRP Samples/EyeTracking/Scenes/XR Rig.prefab using Guid(3d062f94b52943e4a9af21347fb65293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58c7168a9bef3cce57e7eb5b5c5ffc9') in 5.221186 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
-  artifactKey: Guid(6e57714992b7cf749b76bc30b0034cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(6e57714992b7cf749b76bc30b0034cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10c93c80494933e04e53732b0256e8d') in 0.118127 seconds 
+  Time since last request: 0.891706 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8d181da3c529f82ccc8332a4d842ac') in 0.021027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012443 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f01cf3fbf42d06df2aacf270d85b170') in 0.011639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.915116 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557e5b36ac84834ddad3a9eadbfbdd28') in 0.004641 seconds 
 ========================================================================
 Received Prepare
-Switching render pipeline 7b7fd9122c28c4d15b667c7040e3b3fd -> 6e57714992b7cf749b76bc30b0034cdf
-Refreshing native plugins compatible for Editor in 13.04 ms, found 15 plugins.
+Registering precompiled user dll's ...
+Registered in 0.009836 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <63965ae56af7489797f355b7c1211ab2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.39 ms, found 15 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 159 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (1.6 MB). Loaded Objects now: 7263.
-Memory consumption went from 166.1 MB to 164.5 MB.
-Total: 8.100700 ms (FindLiveObjects: 0.595500 ms CreateObjectMapping: 0.461900 ms MarkObjects: 6.230400 ms  DeleteObjects: 0.812000 ms)
+Unloading 6588 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (3.8 MB). Loaded Objects now: 7491.
+Memory consumption went from 311.1 MB to 307.4 MB.
+Total: 4.485000 ms (FindLiveObjects: 0.514800 ms CreateObjectMapping: 0.147900 ms MarkObjects: 2.962600 ms  DeleteObjects: 0.858900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:srp/default-pipeline: e6751794297bfc47b967cb030b30c4fd -> b7f79d21c2824c1db566c707043e3bdf
 ========================================================================
-Received Import Request.
-  Time since last request: 102.861605 seconds.
-  path: Assets/HDRPDefaultResources/SkinDiffusionProfile.asset
-  artifactKey: Guid(1f9ff9e08f21dca47a81a062fa2bf2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/SkinDiffusionProfile.asset using Guid(1f9ff9e08f21dca47a81a062fa2bf2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c129569d8301a23c2e80378641f369b8') in 0.006398 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007473 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <63965ae56af7489797f355b7c1211ab2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6652 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (4.4 MB). Loaded Objects now: 7529.
+Memory consumption went from 317.0 MB to 312.6 MB.
+Total: 4.819900 ms (FindLiveObjects: 0.563100 ms CreateObjectMapping: 0.155700 ms MarkObjects: 2.987100 ms  DeleteObjects: 1.113400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(b02c7bf3de038eb4cadfa08dd684c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(b02c7bf3de038eb4cadfa08dd684c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21ba3c6866b180e0044991b9d180d00') in 0.005912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(894dae052ad836c4884ea514dabaed59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(894dae052ad836c4884ea514dabaed59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de1a7d983b72f8b414ee42ae67cc871') in 0.059535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset
-  artifactKey: Guid(35929048292b6f9478120b48556be046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset using Guid(35929048292b6f9478120b48556be046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1184442e449823a898b3bd6a35368c3') in 0.004422 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011719 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Varjo\VARJO_OpticsDemo\EyeTrackingDemo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <63965ae56af7489797f355b7c1211ab2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1030ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.48 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6652 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (4.4 MB). Loaded Objects now: 7533.
+Memory consumption went from 317.1 MB to 312.7 MB.
+Total: 5.188400 ms (FindLiveObjects: 0.460700 ms CreateObjectMapping: 0.375800 ms MarkObjects: 3.241900 ms  DeleteObjects: 1.109200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
